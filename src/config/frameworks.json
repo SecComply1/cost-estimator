@@ -1,0 +1,30 @@
+{
+  "frameworks": [
+    {
+      "id": "iso27001",
+      "name": "ISO 27001",
+      "fullName": "ISO/IEC 27001:2022",
+      "category": "information_security",
+      "categoryLabel": "Information Security",
+      "description": "International standard for information security management systems (ISMS)",
+      "region": "global",
+      "popular": true,
+      "color": "#3B82F6"
+    },
+    {
+      "id": "soc2_type2",
+      "name": "SOC 2 Type II",
+      "fullName": "SOC 2 Type II",
+      "category": "audit_attestation",
+      "categoryLabel": "Audit & Attestation",
+      "description": "Operating effectiveness of security controls over 6-12 months",
+      "region": "us",
+      "popular": true,
+      "color": "#7C3AED"
+    }
+  ],
+  "categories": [
+    { "id": "information_security", "label": "Information Security" },
+    { "id": "audit_attestation", "label": "Audit & Attestation" }
+  ]
+}

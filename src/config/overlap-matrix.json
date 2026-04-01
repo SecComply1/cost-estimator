@@ -1,0 +1,25 @@
+{
+  "overlaps": [
+    { "framework1": "iso27001", "framework2": "soc2_type1", "discount": 0.30 },
+    { "framework1": "iso27001", "framework2": "soc2_type2", "discount": 0.30 },
+    { "framework1": "iso27001", "framework2": "iso27701", "discount": 0.40 },
+    { "framework1": "iso27001", "framework2": "iso22301", "discount": 0.25 },
+    { "framework1": "iso27001", "framework2": "nist_csf", "discount": 0.35 },
+    { "framework1": "iso27001", "framework2": "cis_controls", "discount": 0.25 },
+    { "framework1": "soc2_type1", "framework2": "hipaa", "discount": 0.20 },
+    { "framework1": "soc2_type2", "framework2": "hipaa", "discount": 0.20 },
+    { "framework1": "soc2_type1", "framework2": "nist_csf", "discount": 0.28 },
+    { "framework1": "soc2_type2", "framework2": "nist_csf", "discount": 0.28 },
+    { "framework1": "gdpr", "framework2": "dpdpa", "discount": 0.35 },
+    { "framework1": "gdpr", "framework2": "iso27701", "discount": 0.45 },
+    { "framework1": "hipaa", "framework2": "iso27001", "discount": 0.25 },
+    { "framework1": "pci_dss", "framework2": "iso27001", "discount": 0.18 },
+    { "framework1": "pci_dss", "framework2": "soc2_type1", "discount": 0.15 },
+    { "framework1": "pci_dss", "framework2": "soc2_type2", "discount": 0.15 },
+    { "framework1": "nist_800_53", "framework2": "nist_csf", "discount": 0.50 },
+    { "framework1": "nist_800_53", "framework2": "iso27001", "discount": 0.30 },
+    { "framework1": "rbi", "framework2": "iso27001", "discount": 0.25 },
+    { "framework1": "sebi", "framework2": "iso27001", "discount": 0.22 },
+    { "framework1": "rbi", "framework2": "sebi", "discount": 0.18 }
+  ]
+}

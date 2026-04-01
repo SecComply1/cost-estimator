@@ -1,0 +1,100 @@
+{
+  "industries": [
+    {
+      "id": "banking_financial",
+      "label": "Banking & Financial Services",
+      "description": "Banks, NBFCs, insurance, wealth management",
+      "multiplier": 1.35,
+      "icon": "building-columns",
+      "recommendedFrameworks": ["iso27001", "rbi", "sebi", "pci_dss", "dpdpa"]
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare & Life Sciences",
+      "description": "Hospitals, clinics, pharma, medical devices",
+      "multiplier": 1.25,
+      "icon": "heart-pulse",
+      "recommendedFrameworks": ["hipaa", "iso27001", "gdpr", "dpdpa"]
+    },
+    {
+      "id": "saas_technology",
+      "label": "SaaS & Technology",
+      "description": "Software companies, cloud services, IT firms",
+      "multiplier": 1.00,
+      "icon": "laptop",
+      "recommendedFrameworks": ["soc2_type2", "iso27001", "gdpr", "dpdpa"]
+    },
+    {
+      "id": "ecommerce_retail",
+      "label": "E-commerce & Retail",
+      "description": "Online retail, marketplaces, D2C brands",
+      "multiplier": 1.10,
+      "icon": "shopping-cart",
+      "recommendedFrameworks": ["pci_dss", "iso27001", "gdpr", "dpdpa"]
+    },
+    {
+      "id": "manufacturing",
+      "label": "Manufacturing & Industrial",
+      "description": "Factories, OT/IT convergence, supply chain",
+      "multiplier": 1.15,
+      "icon": "industry",
+      "recommendedFrameworks": ["iso27001", "nist_csf", "iso22301"]
+    },
+    {
+      "id": "government_psu",
+      "label": "Government & PSU",
+      "description": "Central/state government, public sector units",
+      "multiplier": 1.30,
+      "icon": "landmark",
+      "recommendedFrameworks": ["nist_800_53", "iso27001", "cis_controls"]
+    },
+    {
+      "id": "education",
+      "label": "Education & EdTech",
+      "description": "Universities, schools, online learning platforms",
+      "multiplier": 0.85,
+      "icon": "graduation-cap",
+      "recommendedFrameworks": ["iso27001", "gdpr", "dpdpa"]
+    },
+    {
+      "id": "telecom",
+      "label": "Telecom & Media",
+      "description": "ISPs, telecom operators, content platforms",
+      "multiplier": 1.25,
+      "icon": "radio-tower",
+      "recommendedFrameworks": ["iso27001", "nist_csf", "dpdpa"]
+    },
+    {
+      "id": "energy_utilities",
+      "label": "Energy & Utilities",
+      "description": "Power, oil & gas, water treatment",
+      "multiplier": 1.30,
+      "icon": "zap",
+      "recommendedFrameworks": ["nist_csf", "iso27001", "iso22301", "cis_controls"]
+    },
+    {
+      "id": "logistics",
+      "label": "Logistics & Supply Chain",
+      "description": "Freight, warehousing, last-mile delivery",
+      "multiplier": 1.05,
+      "icon": "truck",
+      "recommendedFrameworks": ["iso27001", "iso22301", "dpdpa"]
+    },
+    {
+      "id": "media_entertainment",
+      "label": "Media & Entertainment",
+      "description": "Broadcasting, OTT, gaming, publishing",
+      "multiplier": 0.90,
+      "icon": "film",
+      "recommendedFrameworks": ["iso27001", "gdpr", "dpdpa"]
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "description": "Other industries not listed above",
+      "multiplier": 1.00,
+      "icon": "briefcase",
+      "recommendedFrameworks": ["iso27001", "dpdpa"]
+    }
+  ]
+}
