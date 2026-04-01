@@ -117,12 +117,12 @@ export function calculateEstimate(input: EstimatorInput): EstimatorOutput {
 
   const complexityScore = COMPLEXITY_SCORES[complexity];
 
-  // Sort frameworks by total base cost (most expensive = full price, others get bundle discounts)
+  // Sort frameworks by total 1-year base cost (most expensive = full price, others get bundle discounts)
   const sortedFrameworks = [...input.selectedFrameworks].sort((a, b) => {
     const costA = BASE_COSTS[a][band];
     const costB = BASE_COSTS[b][band];
-    const totalA = costA.tool + costA.delivery + costA.audit;
-    const totalB = costB.tool + costB.delivery + costB.audit;
+    const totalA = costA.tool_1y + costA.delivery_1y + costA.audit;
+    const totalB = costB.tool_1y + costB.delivery_1y + costB.audit;
     return totalB - totalA;
   });
 

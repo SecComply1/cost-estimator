@@ -27,6 +27,8 @@ const ExistingPosture = ({ formData, onChange, onToggleCertification }: Existing
     existingCertifications: formData.existingCertifications ?? [],
     hasSecurityTeam: formData.hasSecurityTeam ?? false,
     lastAuditDate: formData.lastAuditDate ?? "never",
+    engagementPeriod: formData.engagementPeriod ?? "1_year",
+    auditFirmTier: formData.auditFirmTier ?? "standard",
   };
 
   const { score, level, deliveryDiscount: discountRate } = computePostureScore(safeFormData);

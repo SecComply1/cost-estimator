@@ -17,13 +17,10 @@ const OrganizationDetails = ({ formData, onChange }: OrganizationDetailsProps) =
   }));
 
   const teamSizeOptions: { value: TeamSizeBracket; label: string }[] = [
-    { value: "1-10", label: "1–10 employees" },
-    { value: "11-50", label: "11–50 employees" },
-    { value: "51-200", label: "51–200 employees" },
+    { value: "1-10",    label: "1–10 employees" },
+    { value: "11-50",   label: "11–50 employees" },
+    { value: "51-200",  label: "51–200 employees" },
     { value: "201-500", label: "201–500 employees" },
-    { value: "501-1000", label: "501–1,000 employees" },
-    { value: "1001-5000", label: "1,001–5,000 employees" },
-    { value: "5000+", label: "5,000+ employees" },
   ];
 
   const revenueOptions: { value: RevenueRange; label: string }[] = [
@@ -37,7 +34,7 @@ const OrganizationDetails = ({ formData, onChange }: OrganizationDetailsProps) =
 
   const countryOptions = countriesData.countries.map((c) => ({
     value: c.code,
-    label: `${c.name} (${countriesData.tiers[c.tier as keyof typeof countriesData.tiers].label.replace("Tier ", "T")})`,
+    label: `${c.name} (${c.region})`,
   }));
 
   return (
@@ -86,7 +83,7 @@ const OrganizationDetails = ({ formData, onChange }: OrganizationDetailsProps) =
         <h4 className="text-sm font-semibold text-[#3B82F6] mb-2">How these affect your estimate</h4>
         <ul className="text-xs text-[#94A3B8] space-y-1">
           <li>• Industry multipliers range from 0.85x (Education) to 1.35x (Banking)</li>
-          <li>• Country tier adjusts all costs: India (1.0x), EU/SG/AU (1.6x), US/UK/JP (2.2x)</li>
+          <li>• Country adjusts all costs: India (1.0×), Middle East (1.6×), EU (1.8×), UK/JP (2.0×), USA (2.2×)</li>
           <li>• Revenue affects tooling and audit certification costs only</li>
           <li>• Team size significantly impacts implementation complexity</li>
         </ul>
